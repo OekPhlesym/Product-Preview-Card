@@ -1,0 +1,145 @@
+<main>  
+    <head>
+        
+    <body>
+        <div class="image">
+            <img src="image-product-desktop.jpg" alt="Product image">
+
+                <div class="article">
+                    <h5>P E R F U M E</h5>
+                    <h1>Gabrielle <br>Essence  Eau<br> De Parfum</h1>
+                    <h5>A floral, solar and voluptuous <br>interpretationn composed by <br>
+                    Olivier polge, Perfumer-Creator <br>
+                    for the house of CHANEL. </h5>
+                        <div class="numbers">
+                                <div class="price">
+                                    <h1>$149.99</h1>
+                                </div>
+                                <div class="originalPrice">
+                                    <h5>$169.99</h5>
+                                </div>
+                        </div>
+                    <button >
+                        &#128722; Add to Cart
+                    </button>
+                </div>
+             </div>
+        
+        </body>
+</main>
+
+<style>
+    .originalPrice {
+        padding-top: 5%;
+        text-decoration-line: line-through;
+    }
+    .numbers {
+        display: flex;
+        padding-left: 3%;
+    }
+    .price   {
+            
+        color: hsl(158, 36%, 37%);
+        padding-right: 12%;
+            
+    }
+
+    button {
+        background-color: hsl(158, 36%, 37%);
+    }
+    
+
+    body {
+
+        background-color: hsl(30, 38%, 92%);
+        
+    }
+
+    img {
+        
+        height: 31em;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+    }
+    .image {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .article {
+      
+        /* display: flex;
+        flex-direction: column; */
+        background-color: white;
+        width: auto;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 5%;
+
+    }
+
+    h1 {
+        font-weight: 14px;
+    }
+
+    h5 {
+         font-family: 'Montserrat', sans-serif;
+         color:  hsl(228, 12%, 48%);
+            
+    }
+
+    @media(max-width: 767px){
+        .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+    }
+    
+        button {
+            width: 83%;
+            background-color: hsl(158, 36%, 37%);
+    }
+        img {
+            border-top-left-radius: 7%;
+            border-top-right-radius: 7%;
+            border-bottom-left-radius: 0%;
+            height: 19em;
+            width: 17.5em;
+    }
+
+
+        .originalPrice {
+        
+            padding-top: 15;
+    }
+    
+        .price   {
+            
+            color: hsl(158, 36%, 37%);
+            
+             
+     }
+
+        .article {
+            padding-left: 7.3%;
+            padding-right: 7.3%;
+            padding-bottom: 7.3%;;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-bottom-left-radius: 5%;
+            border-top-right-radius: 0%;
+            
+
+    }
+
+}
+
+
+
+</style>
