@@ -1,145 +1,126 @@
-<main>  
+ 
+<!DOCTYPE HTML>
+<html>
+<meta lang="en">
+<meta charset="UTF-8">
     <head>
+            <title>Garbrielle Essence</title>
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+    </head>
+   
+        <body>
+            
         
-    <body>
-        <div class="image">
-            <img src="image-product-desktop.jpg" alt="Product image">
+            <section class="image"><img src="image-product-desktop.jpg" alt="Perfume"></section>
+            
+        
+        <article>
+            <h2 class="title">PERFUME</h2>
+            
 
-                <div class="article">
-                    <h5>P E R F U M E</h5>
-                    <h1>Gabrielle <br>Essence  Eau<br> De Parfum</h1>
-                    <h5>A floral, solar and voluptuous <br>interpretationn composed by <br>
-                    Olivier polge, Perfumer-Creator <br>
-                    for the house of CHANEL. </h5>
-                        <div class="numbers">
-                                <div class="price">
-                                    <h1>$149.99</h1>
-                                </div>
-                                <div class="originalPrice">
-                                    <h5>$169.99</h5>
-                                </div>
-                        </div>
-                    <button >
-                        &#128722; Add to Cart
-                    </button>
-                </div>
-             </div>
-        
-        </body>
-</main>
+            <h1>Garbrielle Essence <br>Eau De Parfum</h1>
+            <div class="container">
+                A floral, solar and voluptuous 
+                <br>interpretation composed by <br>Olivier polge, Perfumer-
+                Creator ,<br> for the House of CHANEL</div><br>
+            <div class="pricetags"> <span class="normalPrice">$149.99</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<span class="markedDownPrice">$169.99</span></div>
+            <br><button><svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>  &nbsp;&nbsp;&nbsp;Add to Cart</button>
+        </article>
+    </body>
+    
+</html>
+
 
 <style>
-    .originalPrice {
-        padding-top: 5%;
-        text-decoration-line: line-through;
-    }
-    .numbers {
-        display: flex;
-        padding-left: 3%;
-    }
-    .price   {
-            
-        color: hsl(158, 36%, 37%);
-        padding-right: 12%;
-            
-    }
-
-    button {
-        background-color: hsl(158, 36%, 37%);
-    }
-    
-
-    body {
-
-        background-color: hsl(30, 38%, 92%);
-        
-    }
-
-    img {
-        
-        height: 31em;
-        border-bottom-left-radius: 5%;
-        border-top-left-radius: 5%;
-    }
-    .image {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5%;
-    }
-
-    .article {
-      
-        /* display: flex;
-        flex-direction: column; */
-        background-color: white;
-        width: auto;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        border-bottom-right-radius: 5%;
-        border-top-right-radius: 5%;
-
-    }
-
-    h1 {
-        font-weight: 14px;
-    }
-
-    h5 {
-         font-family: 'Montserrat', sans-serif;
-         color:  hsl(228, 12%, 48%);
-            
-    }
-
-    @media(max-width: 767px){
-        .image {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        
-    }
-    
-        button {
-            width: 83%;
-            background-color: hsl(158, 36%, 37%);
-    }
-        img {
-            border-top-left-radius: 7%;
-            border-top-right-radius: 7%;
-            border-bottom-left-radius: 0%;
-            height: 19em;
-            width: 17.5em;
-    }
-
-
-        .originalPrice {
-        
-            padding-top: 15;
-    }
-    
-        .price   {
-            
-            color: hsl(158, 36%, 37%);
-            
-             
-     }
-
-        .article {
-            padding-left: 7.3%;
-            padding-right: 7.3%;
-            padding-bottom: 7.3%;;
-            display: flex;
-            flex-direction: column;
-            background-color: white;
-            border-bottom-left-radius: 5%;
-            border-top-right-radius: 0%;
-            
-
-    }
-
+    html {
+ background-color: hsl(30, 38%, 92%) ;
+ padding: 50px;
 }
 
+body{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+    padding-top: 95px;
+}
+
+h1 {
+    font-size: 27px;
+    font-stretch: expanded;
+    font-family: "Fraunces";
+}
+
+h2 {
+    font-size: 43px;
+}
+
+.title {
+    font-size: medium;
+    color: gray;
+} 
+
+.container {
+
+    font-size: medium;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 500;
+} 
+
+button {
+        background-color: hsl(158, 36%, 37%);; /* Green */
+        border: solid rgb(243, 238, 238);
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 9px;
+        width: 290px;
+      }
 
 
+section {
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+}
+
+img {
+    height: 400px;
+    weight: 490px;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+}
+
+.normalPrice {
+    font-size: 27px;
+    font-weight: bold;
+    color:hsl(158, 36%, 37%);
+}
+
+.markedDownPrice {
+    font-size: small;
+    text-decoration: line-through;
+    text-align: end;
+    color:hsl(158, 36%, 37%);
+    display: flex;
+    padding-top: 5px;
+}
+
+.pricetags {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left
+}
+
+article {
+    text-align: ;
+    padding: 23px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+    width: 300px;
+}
 </style>
